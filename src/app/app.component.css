@@ -1,0 +1,18 @@
+.navbar-custom {
+   background-color: #5ab55f !important;
+  }
+
+  .nav-text{
+    color: white;
+  }
+
+  .space{
+    margin-top: 1em;
+  }
+
+  .center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,37 @@
+<div class="page-header">
+  <div class="">
+    <div class="center">
+      <h1></h1>
+    </div>
+    <div class="center">
+      <h2 class="green" >InternsFcsamerica 2022 Todo List</h2>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+
+  <div class="center">
+    <form class="form-inline" [formGroup]="validateForm" (ngSubmit)="submitForm(validateForm.value)">
+      <div class="form-group" >
+        <label class="form-control-label spaceLabel" >New Todo</label>
+        <input formControlName="title" type="text" class="form-control" [(ngModel)]="titleInput" required>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-custom" [disabled]="!validateForm.valid" (click)="submitForm(val)">Add</button>
+      </div>
+    </form>
+
+  </div>
+
+
+  <div class="row">
+    <div *ngIf="isStatus" class="alert alert-success space" role="alert">
+      <div class="center">
+        {{alertMsg}}
+      </div>
+    </div>
+   </div>
+
+</div>

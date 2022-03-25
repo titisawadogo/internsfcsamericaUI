@@ -1,0 +1,27 @@
+.center {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inline .form-group {
+  margin-right:20px;
+}
+
+.btn-custom {
+  background-color: #5ab55f !important;
+  border-color: white;
+ }
+
+ .green{
+   color: #5ab55f;
+ }
+
+ .spaceLabel{
+   margin-right: 1em;
+ }
+
+ .space{
+  margin-top: 1em;
+}

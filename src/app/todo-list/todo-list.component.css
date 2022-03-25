@@ -1,0 +1,18 @@
+.center {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space{
+  margin-top: 1em;
+}
+
+.line{
+  text-decoration: line-through;
+}
+
+nz-switch.disabled{
+  opacity: 0;
+}
